@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<menu>
+  <item>
+     <path>civicrm/group/sql</path>
+     <title>Smart Group Sql</title>
+     <path_arguments></path_arguments>
+     <page_callback>CRM_SmartGroupSql_Form_SmartGroupSql</page_callback>
+     <access_arguments>administer CiviCRM</access_arguments>
+     <page_type>0</page_type>
+     <component>Contact</component>
+  </item>
+</menu>
+
