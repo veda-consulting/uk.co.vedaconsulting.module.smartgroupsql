@@ -451,7 +451,7 @@ WHERE  id = %1
                               AND   civicrm_group_contact.group_id = $groupID ) ";
 
       // LLR Customisation 20-08-13 PS
-      CRM_Utils_Hook::smartGroupWhereClause($groupID, $sql);
+      CRM_Utils_HookSmartGroupSql::smartGroupWhereClause($groupID, $sql);
     }
 
 		if ($sql) {
